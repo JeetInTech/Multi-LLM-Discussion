@@ -1,0 +1,23 @@
+# Multi-LLM Group Chat Discussion System
+# =======================================
+# Uses FREE LLM providers only!
+
+# Core dependencies
+rich>=13.0.0          # Beautiful terminal output
+requests>=2.28.0      # For Ollama and HuggingFace HTTP APIs
+python-dotenv>=1.0.0  # Load API keys from .env file
+
+# FREE LLM Provider SDKs (install what you need)
+# ----------------------------------------------
+
+# Ollama - 100% FREE, local (RECOMMENDED - no SDK needed, uses requests)
+# Install Ollama from: https://ollama.com/download
+# Then run: ollama pull llama3.2
+
+# Groq - FREE tier (very fast cloud inference)
+groq>=0.4.0
+
+# Google Gemini - FREE tier (15 requests/minute)  
+google-generativeai>=0.3.0
+
+# HuggingFace - FREE inference API (uses requests, no SDK needed)
